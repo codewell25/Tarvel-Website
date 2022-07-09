@@ -1047,6 +1047,25 @@ footer {
   color: #FF7F49;
 }
 
+.payment-options {
+  width: 90%;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.payment-options img {
+  width: 60px;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
 @media screen and (max-width: 1023px) {
   .mail-phn {
     display: none;
@@ -1209,9 +1228,6 @@ footer {
     margin: 50px 0 30px 0;
     padding: 0 20px;
   }
-  .payment-options {
-    text-align: center;
-  }
   .newsletter-input-section {
     left: 10px;
     bottom: -300px;
@@ -1237,7 +1253,7 @@ footer {
   .footer-nav {
     text-align: center;
   }
-  .payment-options,
+  .payment-options-wrapper,
   .contact-us-section,
   .footer-nav {
     margin-top: 70px;
