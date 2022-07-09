@@ -1,5 +1,5 @@
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Jost', sans-serif;
 }
 
 .contact-info-wrapper {
@@ -850,11 +850,9 @@ input[type="text"].input-place::placeholder {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-bottom-right-radius: 10px;
-    border-bottom-left-radius: 10px;
     position: absolute;
     top: 0;
-    left: 35%;
+    left: 0;
 
     svg {
         color: #FF7F49;
