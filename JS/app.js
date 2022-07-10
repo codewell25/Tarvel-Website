@@ -248,11 +248,16 @@ let day, month;
 if (date.getDate() < 10) {
     day = "0" + date.getDate()
 }
+else {
+    day = date.getDate()
+}
 
 if (date.getMonth() + 1 < 10) {
     month = "0" + (date.getMonth() + 1)
 }
-
+else {
+    month = date.getMonth()
+}
 
 dateInputEl.value = `${day}/${month}/${date.getFullYear()} `
 

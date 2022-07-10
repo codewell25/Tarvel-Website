@@ -216,12 +216,20 @@
 
 .nav-icons {
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     button {
         background: none;
         color: #FF7F47;
         border: none;
         font-size: 23px;
     }
+}
+
+#search-icon{
+    margin-right: 10px;
 }
 
 .searchbox-div-wrapper {
