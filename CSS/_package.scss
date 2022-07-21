@@ -1,0 +1,740 @@
+.package-sidebar-content {
+    padding: 100px 0;
+    background-color: #F6F6F6;
+}
+
+.package-heading {
+    select {
+        border: 2px solid black;
+        width: 140px;
+        padding: 10px 0;
+        font-weight: bolder;
+    }
+}
+
+.card-content-package {
+
+    &:hover {
+        img {
+            transform: scale(1.1, 1.1);
+        }
+    }
+}
+
+.card-package-img {
+    width: 100%;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        transition: 0.5s;
+    }
+}
+
+.package-price-range {
+    background-color: white;
+    box-shadow: 0 0 64px rgba(17, 17, 17, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+
+    input[type='range'] {
+        width: 100%;
+    }
+}
+
+.package-duration {
+    background-color: white;
+    box-shadow: 0 0 64px rgba(17, 17, 17, 0.1);
+    padding: 20px 30px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+#price-display {
+    color: #304F46;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.package-radio-input {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+    input {
+        margin-right: 30px;
+        transform: scale(1.5);
+    }
+
+    label {
+        font-size: 20px;
+        color: #A5A5A5;
+    }
+}
+
+.package-categories {
+    margin-top: 40px;
+    @extend .package-duration;
+}
+
+.package-page-margin {
+    margin-bottom: 100px;
+}
+
+.package-standard-content {
+    @extend .package-sidebar-content;
+}
+
+.package-standard {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 0 64px rgba(17, 17, 17, 0.1);
+    border-radius: 10px;
+}
+
+.package-standard-card-img {
+    width: 100%;
+
+    img {
+        width: 100%;
+    }
+}
+
+
+
+.package-info {
+    width: 100%;
+    padding: 30px;
+}
+
+.package-detail-bg {
+    background-color: #F6F6F6;
+}
+
+.package-details {
+    padding: 100px 0;
+}
+
+.package-details-contact-form {
+    background-color: white;
+    box-shadow: 0 0 64px rgba(17, 17, 17, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+
+    section {
+        margin: 20px 0;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    input,
+    select {
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+    select {
+        color: grey;
+        height: 45px;
+        padding: 0 10px;
+    }
+
+    textarea {
+        height: 150px;
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
+
+}
+
+.package-detail-contact-input-field {
+    input {
+        height: 45px;
+        padding: 0 10px;
+    }
+}
+
+.travel-type {
+    select {
+        width: 100%;
+    }
+}
+
+.child {
+    width: 50%;
+}
+
+.adult {
+    width: 48%;
+}
+
+.book-now-btn {
+    border: 1px solid #304F46;
+    background-color: #304F46;
+    height: 55px;
+    font-size: 20px;
+    color: white;
+    transition: 0.5s;
+
+    &:hover {
+        background-color: #FF7F47;
+        border: 1px solid #FF7F47;
+    }
+}
+
+.checked {
+    color: #FF7F47;
+}
+
+.package-detail-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.package-d-location {
+    color: grey;
+
+    svg {
+        font-size: 20px;
+        margin-right: 10px;
+    }
+}
+
+.package-rating {
+    text-align: right;
+
+    p {
+        font-size: 13px;
+        margin: 0;
+    }
+}
+
+.package-short-info {
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    padding: 30px 0;
+
+    svg {
+        font-size: 40px;
+        color: #FF7F47;
+        margin-right: 20px;
+    }
+
+    p {
+        margin: 0;
+        color: grey;
+        font-weight: bolder;
+    }
+}
+
+.pd-nav-btns {
+    padding: 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+
+    button {
+        width: 200px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        border: 3px solid #FF7F47;
+        border-radius: 5px;
+        font-weight: bolder;
+        margin: 10px;
+    }
+
+    svg {
+        margin-right: 15px;
+    }
+
+    .active-btn {
+        background-color: #FF7F47;
+        color: white;
+    }
+}
+
+.pd-overview {
+    p {
+        font-size: 20px;
+        line-height: 1.5;
+        color: gray;
+    }
+}
+
+.pd-highlight-section {
+    ul {
+        padding: 0;
+        margin: 20px 0;
+        list-style: none;
+        line-height: 3;
+        font-size: 20px;
+        color: gray;
+    }
+}
+
+.pd-highlight-point {
+    svg {
+        margin-right: 15px;
+        color: #FF7F47;
+    }
+
+    display: flex;
+    align-items: center;
+}
+
+.pd-details-table {
+    table {
+        width: 100%;
+    }
+
+    tr,
+    td {
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        font-size: 20px;
+    }
+
+    td {
+        padding: 15px 40px;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+        line-height: 2;
+    }
+
+    svg {
+        color: #FF7F47;
+        margin-right: 10px;
+    }
+}
+
+.table-label {
+    font-weight: bolder;
+}
+
+.tabel-value {
+    color: gray;
+}
+
+.pd-table-excluded {
+    svg {
+        font-size: 14px;
+    }
+}
+
+.table-last-row {
+
+    td {
+        color: black;
+        font-weight: bolder;
+    }
+
+    svg {
+        font-size: 30px;
+    }
+}
+
+.pd-rating {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+}
+
+.pd-overall-rating {
+    background-color: rgb(230, 230, 230);
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+
+    span {
+        font-size: 40px;
+        color: #FF7F47;
+        font-weight: bolder;
+    }
+}
+
+.pd-rating-area {
+    width: 60%;
+    padding: 0 40px;
+    font-weight: bolder;
+}
+
+.pd-comment-form {
+    background-color: white;
+    box-shadow: 0 0 64px rgba(17, 17, 17, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+
+    textarea {
+        width: 100%;
+        height: 160px;
+        padding: 15px 20px;
+        margin: 30px 0 20px 0;
+    }
+
+    input {
+        padding: 0 10px;
+        height: 50px;
+    }
+
+    input,
+    textarea {
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+    }
+}
+
+.pd-comment-inputs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 0;
+
+    input {
+        width: 45%;
+    }
+
+}
+
+.pd-comment-input {
+    input {
+        width: 100%;
+    }
+}
+
+.pd-comment-stars {
+    color: #FF7F47;
+    font-size: 20px;
+}
+
+.pd-comment-submit-btn {
+    margin-top: 40px;
+
+    input {
+        background-color: #FF7F47;
+        color: white;
+        border: 1px solid #FF7F47;
+        width: 130px;
+
+        transition: 0.5s;
+
+        &:hover {
+            background-color: #304F46;
+            border: 1px solid #304F46;
+        }
+    }
+}
+
+.pd-popular-package {
+    background-color: white;
+    box-shadow: 0 0 64px rgba(17, 17, 17, 0.1);
+    padding: 30px;
+    margin: 50px 0;
+    border-radius: 10px;
+}
+
+.pd-popular-package-details {
+    margin-left: 20px;
+
+    section {
+        margin-bottom: 10px;
+    }
+
+    :first-child {
+        font-size: 13px;
+    }
+
+    :nth-child(2) {
+        a {
+            text-decoration: none;
+            color: #FF7F47;
+            font-size: 18px;
+
+            &:hover {
+                color: #FF7F47;
+            }
+        }
+    }
+}
+
+
+
+.pd-trip-organizer {
+    background-color: white;
+    box-shadow: 0 0 64px rgba(17, 17, 17, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+
+    button {
+        height: 50px;
+        background-color: #304F46;
+        color: white;
+        width: 200px;
+        margin-top: 30px;
+        border: none;
+        border-radius: 5px;
+        transition: 0.5s;
+        font-size: 20px;
+
+        &:hover {
+            background-color: #FF7F47;
+        }
+    }
+}
+
+.pd-travel-plan {
+    display: flex;
+}
+
+.pd-travel-plan-index {
+    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+.pd-travel-plan-index-num {
+    background-color: #FF7F47;
+    border: 4px solid #CAD3D1;
+    width: 60px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+}
+
+.pd-travel-plan-vertical-border {
+    border-left: 7px dotted #CAD3D1;
+    height: 100%;
+}
+
+.pd-travel-plan-details {
+    h2 {
+        font-weight: bolder;
+    }
+
+    ul {
+        padding: 0;
+        list-style: none;
+        margin: 30px 0;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        color: #A5A5A5;
+        font-size: 18px;
+
+        svg {
+            margin-right: 10px;
+            color: black;
+        }
+    }
+}
+
+.travel-time {
+    color: #FF7F47;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.travel-plan-explanation {
+    font-size: 20px;
+    color: gray;
+}
+
+.pd-popup-img {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: 1111;
+    color: white;
+}
+
+.pd-popup-btns {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 100px;
+
+    button {
+        background-color: #343434;
+        color: white;
+        margin: 20px 20px 0 0;
+        border: none;
+        padding: 10px 15px;
+    }
+
+    a {
+        color: white;
+    }
+}
+
+.popup-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#pd-gallery {
+    img {
+        cursor: pointer;
+    }
+}
+
+
+@media (max-width:1023px) {
+    .package-categories {
+        margin-top: 0px;
+    }
+
+    .package-side-banner-margin {
+        margin: 30px 0 150px 0;
+    }
+
+    .package-page-margin {
+        margin: 0;
+    }
+
+    .pd-margin {
+        margin-top: 50px;
+    }
+}
+
+@media (max-width:768px) {
+    .package-categories {
+        margin-top: 40px;
+    }
+
+    .package-standard {
+        width: 100%;
+
+        flex-direction: column;
+
+    }
+
+
+    .package-rating {
+
+        p {
+            font-size: 10px;
+
+        }
+    }
+
+    .pd-highlight-section {
+        align-items: flex-start;
+
+        ul {
+            font-size: 18px;
+            line-height: 1;
+        }
+
+        li {
+            margin: 15px 0;
+        }
+    }
+
+    .pd-details-table {
+
+        tr,
+        td {
+            font-size: 18px;
+            padding: 20px 10px;
+        }
+
+        ul {
+            line-height: 1;
+        }
+
+        li {
+            margin: 15px 0;
+        }
+
+
+    }
+
+    .pd-overview {
+        p {
+            font-size: 18px;
+            text-align: justify;
+
+        }
+    }
+
+    .pd-rating {
+        flex-direction: column;
+    }
+
+    .pd-rating-area {
+        padding: 30px 20px;
+    }
+
+    .pd-overall-rating,
+    .pd-rating-area {
+        width: 100%;
+    }
+
+    .pd-comment-inputs {
+        flex-direction: column;
+
+        input {
+            width: 100%;
+        }
+
+        :first-child {
+            margin-bottom: 30px;
+        }
+    }
+
+    .pd-travel-plan-index {
+        margin-right: 10px;
+    }
+
+    .pd-travel-plan-details {
+        h2 {
+            font-size: 20px;
+        }
+
+        li {
+            font-size: 18px;
+        }
+    }
+
+    .travel-plan-explanation {
+        font-size: 18px;
+    }
+
+    .travel-time {
+        font-size: 18px;
+    }
+
+    .pd-travel-plan-vertical-border {
+        height: 100%;
+    }
+
+    .popup-img {
+        img {
+            width: 100%;
+        }
+    }
+}
